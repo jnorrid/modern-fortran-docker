@@ -1,10 +1,13 @@
 # modern-fortran-docker
 
 Dockerfile to build a modern-fortran Docker image.
-It's based off Ubuntu 18.04 and installs gfortran, OpenMPI, and OpenCoarrays for you.
+It's based off Ubuntu 23.10, which has several enhancements to the Linux kernel and supports 
+GCC GFortran v13.2.0.
+
+This Dockerfile installs gfortran, OpenMPI, and OpenCoarrays for you.
 It will also git clone the modern-fortran projects.
 
-You will need Docker set up and running on your system.
+You will need Docker to be set up and running on your system.
 
 ## Build
 
@@ -29,3 +32,4 @@ docker run -it modern-fortran:latest /bin/bash
 ## Thanks
 
 Maurizio Tomassi who provided the original Dockerfile.
+Joshua Noorrid who updated the Dockerfile for use with Ubuntu 23.10
