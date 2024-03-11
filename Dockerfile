@@ -3,7 +3,7 @@ FROM ubuntu:23.10
 ENV USERNAME=backus
 
 # install sudo
-RUN apt-get -yq update && apt-get -yq install sudo 
+RUN apt-get -yq update && apt-get -yq install sudo
 
 # create and switch to a user
 RUN echo "backus ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers

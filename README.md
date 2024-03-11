@@ -31,5 +31,5 @@ docker run -it modern-fortran:latest /bin/bash
 
 ## Thanks
 
-Maurizio Tomassi who provided the original Dockerfile.
-Joshua Noorrid who updated the Dockerfile for use with Ubuntu 23.10
+* Maurizio Tomassi who provided the original Dockerfile
+* Joshua Norrid who updated the Dockerfile for use with Ubuntu 23.10
